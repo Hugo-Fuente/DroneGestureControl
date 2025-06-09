@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)
 
-[cite_start]Repositório do Trabalho de Conclusão de Curso de Graduação em [...Insira o nome do seu curso aqui...], desenvolvido por Hugo Gomes de la Fuente.
+Repositório do Trabalho de Conclusão de Curso de Graduação em Bacharelado de Sistemas de Informação, desenvolvido por Hugo Gomes de la Fuente.
 
 ## 📝 Descrição
 
@@ -36,8 +36,8 @@ O sistema utiliza a biblioteca MediaPipe para o reconhecimento de gestos e a Ope
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-    cd seu-repositorio
+    git clone [https://github.com/Hugo-Fuente/DroneGestureControl.git](https://github.com/Hugo-Fuente/DroneGestureControl.git)
+    cd DroneGestureControl
     ```
 
 2.  **Crie um ambiente virtual (recomendado):**
@@ -70,12 +70,11 @@ O sistema utiliza a biblioteca MediaPipe para o reconhecimento de gestos e a Ope
 2.  Conecte seu computador à rede Wi-Fi gerada pelo drone.
 3.  Execute o script principal do projeto:
     ```bash
-    python seu_script_principal.py
+    python DroneGestureControl.py
     ```
-    *(**Nota:** Renomeie `seu_script_principal.py` para o nome do seu arquivo principal)*
 
 4.  Uma janela do OpenCV será aberta, mostrando a imagem da sua webcam.
-5.  Siga as instruções exibidas na tela. [cite_start]Para a decolagem inicial, posicione-se em frente à webcam e faça o gesto de **Mão Fechada**, segurando por 1.5 segundos para iniciar a contagem regressiva.
+5.  Siga as instruções exibidas na tela. Para a decolagem inicial, posicione-se em frente à webcam e faça o gesto de **Mão Fechada**, segurando por 1.5 segundos para iniciar a contagem regressiva.
 
 ## ✋ Dicionário de Gestos
 
@@ -112,8 +111,8 @@ O sistema utiliza a biblioteca MediaPipe para o reconhecimento de gestos e a Ope
 ## 👨‍💻 Autor
 
 * **Hugo Gomes de la Fuente**
-    * [LinkedIn](URL_DO_SEU_LINKEDIN)
-    * [GitHub](URL_DO_SEU_GITHUB)
+    * [LinkedIn](linkedin.com/in/hugo-fuente/)
+    * [GitHub](github.com/Hugo-Fuente)
 
 ## 📄 Licença
 
