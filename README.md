@@ -113,7 +113,3 @@ O sistema utiliza a biblioteca MediaPipe para o reconhecimento de gestos e a Ope
 * **Hugo Gomes de la Fuente**
     * [LinkedIn](linkedin.com/in/hugo-fuente/)
     * [GitHub](github.com/Hugo-Fuente)
-
-## 📄 Licença
-
-Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
