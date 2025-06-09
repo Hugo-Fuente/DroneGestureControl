@@ -8,28 +8,28 @@
 
 ## 📝 Descrição
 
-Este projeto apresenta um sistema de controle para o drone DJI Tello EDU, utilizando uma Interface Humano-Máquina (IHM) baseada em visão computacional. [cite_start]O objetivo foi criar uma alternativa de pilotagem intuitiva e acessível, substituindo controles tradicionais por interações com gestos manuais e modos de voo autônomos.
+Este projeto apresenta um sistema de controle para o drone DJI Tello EDU, utilizando uma Interface Humano-Máquina (IHM) baseada em visão computacional. O objetivo foi criar uma alternativa de pilotagem intuitiva e acessível, substituindo controles tradicionais por interações com gestos manuais e modos de voo autônomos.
 
-[cite_start]O sistema utiliza a biblioteca MediaPipe para o reconhecimento de gestos e a OpenCV para a detecção de faces, permitindo um controle rico e interativo da aeronave.
+O sistema utiliza a biblioteca MediaPipe para o reconhecimento de gestos e a OpenCV para a detecção de faces, permitindo um controle rico e interativo da aeronave.
 
 ## ✨ Funcionalidades Principais
 
-* [cite_start]**Controle por Gestos:** Pilote o drone usando diferentes posturas da mão para comandos de decolagem, pouso, movimentos direcionais (frente, trás, cima, baixo) e rotações.
-* [cite_start]**Modo "Me Siga":** O drone detecta um rosto com sua própria câmera, o centraliza e mantém uma distância constante, seguindo o usuário de forma autônoma.
-* [cite_start]**Modo "Scan de Rostos":** A aeronave executa uma varredura panorâmica de 360 graus, detectando e contabilizando o número de faces no ambiente.
-* [cite_start]**Interface e Feedback em Tempo Real:** Uma janela do OpenCV exibe o status do drone (bateria, modo atual), o gesto detectado e legendas de comandos, fornecendo um feedback crucial para o operador.
-* [cite_start]**Segurança:** Comandos críticos como decolagem e pouso exigem a manutenção do gesto por um período, evitando ativações acidentais.
+* **Controle por Gestos:** Pilote o drone usando diferentes posturas da mão para comandos de decolagem, pouso, movimentos direcionais (frente, trás, cima, baixo) e rotações.
+* **Modo "Me Siga":** O drone detecta um rosto com sua própria câmera, o centraliza e mantém uma distância constante, seguindo o usuário de forma autônoma.
+* **Modo "Scan de Rostos":** A aeronave executa uma varredura panorâmica de 360 graus, detectando e contabilizando o número de faces no ambiente.
+* **Interface e Feedback em Tempo Real:** Uma janela do OpenCV exibe o status do drone (bateria, modo atual), o gesto detectado e legendas de comandos, fornecendo um feedback crucial para o operador.
+* **Segurança:** Comandos críticos como decolagem e pouso exigem a manutenção do gesto por um período, evitando ativações acidentais.
 
 ## 🛠️ Tecnologias Utilizadas
 
 * **Linguagem:** Python 3
 * **Bibliotecas Principais:**
-    * [cite_start]**OpenCV:** Para processamento de imagem, detecção de faces (Haar Cascades) e criação da interface visual.
-    * [cite_start]**MediaPipe:** Para detecção de mãos e rastreamento dos 21 landmarks em tempo real.
-    * [cite_start]**DJITelloPy:** Para abstrair a comunicação e o envio de comandos para o drone.
+    * **OpenCV:** Para processamento de imagem, detecção de faces (Haar Cascades) e criação da interface visual.
+    * **MediaPipe:** Para detecção de mãos e rastreamento dos 21 landmarks em tempo real.
+    * **DJITelloPy:** Para abstrair a comunicação e o envio de comandos para o drone.
     * **NumPy:** Para manipulação de arrays e operações numéricas.
 * **Hardware:**
-    * [cite_start]Drone DJI Tello EDU 
+    * Drone DJI Tello EDU 
     * Notebook com Webcam
 
 ## 🔧 Instalação e Configuração
